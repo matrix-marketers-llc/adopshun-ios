@@ -9,6 +9,6 @@ Pod::Spec.new do |spec|
   spec.author       = { "Adopshun" => "info@adopshun.com" }
   spec.platform     = :ios, "14.0"
   spec.source       = { :git => "https://github.com/matrix-marketers-llc/adopshun-ios.git", :tag => spec.version.to_s }
-  spec.source_files  = "adopshun-ios/**/*.{swift}"
+  spec.source_files  = "adopshun-ios/**/*"
   spec.swift_version = "5.0"
 end
