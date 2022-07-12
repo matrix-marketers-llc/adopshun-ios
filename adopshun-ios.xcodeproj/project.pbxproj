@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		65B7AB83287D608A008E63F3 /* adopshun_ios.docc in Sources */ = {isa = PBXBuildFile; fileRef = 65B7AB82287D608A008E63F3 /* adopshun_ios.docc */; };
 		65B7AB84287D608A008E63F3 /* adopshun_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B7AB81287D608A008E63F3 /* adopshun_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65B7ABA1287D966D008E63F3 /* AdopshunCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7ABA0287D966D008E63F3 /* AdopshunCreator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		65B7AB7E287D608A008E63F3 /* adopshun_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = adopshun_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B7AB81287D608A008E63F3 /* adopshun_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adopshun_ios.h; sourceTree = "<group>"; };
 		65B7AB82287D608A008E63F3 /* adopshun_ios.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = adopshun_ios.docc; sourceTree = "<group>"; };
+		65B7ABA0287D966D008E63F3 /* AdopshunCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdopshunCreator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			children = (
 				65B7AB81287D608A008E63F3 /* adopshun_ios.h */,
 				65B7AB82287D608A008E63F3 /* adopshun_ios.docc */,
+				65B7ABA0287D966D008E63F3 /* AdopshunCreator.swift */,
 			);
 			path = "adopshun-ios";
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B7ABA1287D966D008E63F3 /* AdopshunCreator.swift in Sources */,
 				65B7AB83287D608A008E63F3 /* adopshun_ios.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
